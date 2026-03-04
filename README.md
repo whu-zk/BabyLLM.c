@@ -1,14 +1,15 @@
-<h1 align="center"> 项目名称（⚠️ Alpha内测版 / 🧪 Beta公测版） </h1>
+<h1 align="center">  🚀 5天徒手拆解 GPT：纯 C 语言推理引擎挑战赛（⚠️ Alpha内测版 ） </h1>
 
 > [!CAUTION]
 > ⚠️ Alpha内测版本警告：此为早期内部构建版本，尚不完整且可能存在错误，欢迎大家提Issue反馈问题或建议。
 
-或者
+> **“What I cannot create, I do not understand.” — Richard Feynman**
 
-> [!WARNING]
-> 🧪 Beta公测版本提示：教程主体已完成，正在优化细节，欢迎大家提Issue反馈问题或建议。
+*欢迎来到这个为期 5 天的硬核共学营！
 
-*这里写项目的各类介绍信息、背景、动机等内容*
+在这个到处是 PyTorch 和庞大显卡的时代，我们要反其道而行之。我们将剥离所有复杂的框架，只用**最原始的 C 语言**，在你的笔记本 CPU 上唤醒一个拥有 1500 万参数的大模型。
+
+我们将实现一个精简版的 Transformer Decoder 推理内核，让它在你的终端里一字一句地为你写故事。*
 
 ## 项目受众
 
