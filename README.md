@@ -19,12 +19,10 @@
 
 ---
 
-## 项目受众
-
-*注：这里写你的项目所面向的受众，本项目能给他们带来什么，对他们的基础能力要求有哪些*
-
 ## 在线阅读
 https://datawhalechina.github.io/repo-template
+
+---
 
 ## 目录
 |  章节名   | 简介 | 状态 |
@@ -34,6 +32,8 @@ https://datawhalechina.github.io/repo-template
 | [第3章 **灵魂的连接** ](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)  | 实现 `Multi-Head Attention` (多头注意力)，理解 Q,K,V 向量的交织 | 🚧 |
 | [第4章 **记忆与循环**] | 编写 `Inference Loop` 并加入 `KV Cache`,推理速度提升 5x 以上 | 🚧 |
 | [第5章 **对话与采样**] | 实现 `Top-p` 采样，让模型开始讲故事,**[最终作品]** 笔记本流畅跑通 AI | 🚧 |
+
+---
 
 ## 贡献者名单
 
@@ -45,11 +45,28 @@ https://datawhalechina.github.io/repo-template
 
 *注：表头可自定义，但必须在名单中标明项目负责人*
 
-## 参与贡献
+---
 
-- 如果你发现了一些问题，可以提Issue进行反馈，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你想参与贡献本项目，可以提Pull Request，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你对 Datawhale 很感兴趣并想要发起一个新的项目，请按照[Datawhale开源项目指南](https://github.com/datawhalechina/DOPMC/blob/main/GUIDE.md)进行操作即可~
+## 🤝 加入共学社群
+
+这是一个实验性的项目。如果你在实现过程中发现了更好的优化方法，或者发现某个原理我讲得不够清楚，请务必：
+1. **提交 PR**: 修补文档或提供更优雅的代码实现。
+2. **发起 Discussion**: 分享你在调试过程中踩过的坑。
+3. **Show your story**: 在 `第5章` 成功运行后，把 AI 写的第一个故事贴在仓库墙上！
+
+---
+
+## 📜 致敬
+
+本项目基于 Andrej Karpathy 的 [llama2.c](https://github.com/karpathy/llama2.c) 进行简化与教学化适配，旨在为初学者提供一个最平滑的 AI 底层学习路径。
+
+---
+
+**准备好开始了吗？打开 `chapter1_memory/README.md`，让我们一起唤醒那个沉睡在二进制文件里的灵魂。**
+
+[⭐ 点个 Star 支持一下，让更多火种加入这场实验！]
+
+---
 
 ## 关注我们
 
