@@ -5,11 +5,19 @@
 
 > **“What I cannot create, I do not understand.” — Richard Feynman**
 
-*欢迎来到这个为期 5 天的硬核共学营！*
-
 *在这个到处是 PyTorch 和庞大显卡的时代，我们要反其道而行之。我们将剥离所有复杂的框架，只用**最原始的 C 语言**，在你的笔记本 CPU 上唤醒一个拥有 1500 万参数的大模型。*
 
 *我们将实现一个精简版的 Transformer Decoder 推理内核，让它在你的终端里一字一句地为你写故事。*
+
+---
+
+## 🌟 为什么参加这个挑战？
+
+1.  **击碎黑盒焦虑**：不再满足于调用 `openai.Chat` API。你会亲手写下矩阵乘法的每一行循环，理解 LLM 到底是如何“思考”的。
+2.  **极简主义的胜利**：不需要 GPU，不需要安装几 GB 的 CUDA 环境。一个 `gcc` 编译器，就是你全部的武器。
+3.  **底层思维重构**：学习内存映射 (mmap)、缓存局部性 (Cache Locality) 以及 KV Cache 优化，这些是顶尖 AI 工程师的必备直觉。
+
+---
 
 ## 项目受众
 
@@ -19,14 +27,13 @@
 https://datawhalechina.github.io/repo-template
 
 ## 目录
-*这里写你的项目目录，及其完成状态，已完成的部分添加上跳转链接*
-
 |  章节名   | 简介 | 状态 |
 |  ----  | ---- | ---- |
-| [第1章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter1)  | xxx | ✅ |
-| [第2章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)  | xxx | ✅ |
-| [第3章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)  | xxx | ✅ |
-| 第4章  | xxx | 🚧 |
+| [第1章  **加载大脑**](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter1)  | 实现权重文件的 `mmap` 与 Header 解析，成功打印出模型超参数 | ✅ |
+| [第2章 **算力的心脏**](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)  | 编写 `MatMul` (矩阵乘法) 与 `RMSNorm`，通过算子精度验证测试 | 🚧 |
+| [第3章 **灵魂的连接** ](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)  | 实现 `Multi-Head Attention` (多头注意力)，理解 Q,K,V 向量的交织 | 🚧 |
+| [第4章 **记忆与循环**] | 编写 `Inference Loop` 并加入 `KV Cache`,推理速度提升 5x 以上 | 🚧 |
+| [第5章 **对话与采样**] | 实现 `Top-p` 采样，让模型开始讲故事,**[最终作品]** 笔记本流畅跑通 AI | 🚧 |
 
 ## 贡献者名单
 
